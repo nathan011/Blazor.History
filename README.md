@@ -1,7 +1,7 @@
 # Blazor.History
 JS History API Wrapper for Blazor WASM
 
-Inspired by (BlazorHistory)[https://github.com/arivera12/BlazorHistory] but with a few differences:
+Inspired by [https://github.com/arivera12/BlazorHistory](https://github.com/arivera12/BlazorHistory) but with a few differences:
 1) Uses System.Text.Json instead of requiring a dependancy on Newtonsoft.Json
 2) Will not throw an error if State<T> is null.
 3) Made title/url parameters optional in methods where it's unnecessary (for example, setting the title is not supported in most browsers).
